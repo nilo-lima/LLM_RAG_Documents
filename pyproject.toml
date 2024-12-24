@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "secao-3-llm-com-hugging-dace"
+version = "0.1.0"
+description = ""
+authors = ["Nilo Lima Jr <nilo.lima@gmail.com>"]
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.13"
+langchain-community = "^0.3.13"
+langchain-huggingface = "^0.1.2"
+python-dotenv = "^1.0.1"
+torch = "2.5.1"
+torchvision = "0.20.1"
+torchaudio = "^2.5.1"
+transformers = "^4.47.1"
+einops = "^0.8.0"
+accelerate = "^1.2.1"
+bitsandbytes = "^0.45.0"
+langchain-ollama = "^0.2.2"
+langchain-openai = "^0.2.14"
+streamlit = "^1.41.1"
+faiss-cpu = "^1.9.0.post1"
+pypdf = "^5.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
